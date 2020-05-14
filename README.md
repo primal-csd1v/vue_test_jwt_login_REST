@@ -1,21 +1,12 @@
-# vue-router-auth
+how to run - 
+нпм должен быть установлен - 
+открыть 2 терминала, один под сервак - в нем прописать npm run server
+второй под фронтовый апи - npm run dev
 
-> A Vue.js project
+- написал оч быстро, что бы хоть что то было в репе по vue - не юзал vuex на стейт - использовал транзит колбеков по дочерним 
+идея в паттерне умный контейнер, глупый компонент. 
+так же еще не успел прописать дизайн и алгоритм поиска. 
 
-## Build Setup
+вместо логаута  при необходимости - прописать в devtools f12 в консоли 
+localStorage.clear() - что бы удалить jason web token 
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
