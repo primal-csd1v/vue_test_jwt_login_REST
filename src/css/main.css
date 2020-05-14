@@ -1,0 +1,44 @@
+#contacts-wrapper{
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: aqua;
+    padding:10px;
+    border-radius: 5px;
+}
+.hello{
+    padding: 0.1px;
+}
+.contacts{
+    background-color: black;
+    width: 150px;
+    margin: 0 auto;
+    margin-top:10px;
+    border-radius: 5px;
+}
+#modal-form{
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 0.1px;
+}
+#modal-wrapper{
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    overflow: scroll;
+    overflow-x:hidden;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 50px ;
+}
+#add-btn{
+    margin-top: 20px;
+}
