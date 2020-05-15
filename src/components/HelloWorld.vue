@@ -1,7 +1,6 @@
 <template>
   <div class="hello">
-    <h1><a href="http://localhost:8080/login">Поисковая система Яндекс</a></h1>
-    <h2>{{msg}}</h2>
+    <h1><a href="http://localhost:8080/login">{{msg}}</a></h1>    
   </div>
 </template>
 
@@ -9,7 +8,7 @@
 export default {
   data () {
     return {
-      msg: 'Hello World!'
+      msg: 'Вход'
     }
   }
 }
